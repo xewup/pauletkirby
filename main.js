@@ -3,7 +3,7 @@ const kirby = new Discord.Client();
 const paul = new Discord.Client();
 
 kirby.login(process.env.TOKEN);
-paul.login(process.env.TOKEN);
+paul.login(process.env.TOKEN1);
 
 kirby.on('ready', () => {
   console.log(` Kirby Prêt !`);
